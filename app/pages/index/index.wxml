@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="content">
+    <picker mode="date" value="{{birthday || '1990-03-08'}}" start="1900-01-01" end="{{today}}" bind:change="handleDateChange">
+      <view class="time" wx:if="{{birthday}}">
+        {{time}}
+      </view>
+      <view class="settip" wx:if="{{!birthday}}">点击设置生日</view>
+    </picker>
+  </view>
+</view>

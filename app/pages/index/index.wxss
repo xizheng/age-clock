@@ -1,0 +1,19 @@
+.content {
+  height: 150rpx;
+  line-height: 150rpx;
+  width: 100%;
+}
+
+.time {
+  color: #353535;
+  font-size: 20pt;
+  width: 140pt;
+  margin: auto;
+}
+
+.settip {
+  font-size: 13pt;
+  color: #888;
+  text-align: center;
+  text-decoration: underline;
+}
